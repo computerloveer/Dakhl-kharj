@@ -1,5 +1,6 @@
 #!/usr/bin/python
-#coded by poorya samimi
+#coded by computer_loveer
+#instagram : computer_loveer
 #year 1395
 #month 11 OR BAHMAN
 #day 06
@@ -35,23 +36,6 @@ def sood(text, text2):
 	print("soode shoma dar emrooz : ", sood_emrooz)
 	time.sleep(30)
 
-def About_schools_HAFEZ(n):
-	if platform.system() == "Windows":
-		os.system("color a")
-	print('''
-
-		school name : Hafez
-		city name : Nikshahr, sistan & baloochestan, Iran
-		Manager name : Parviz Arbabi
-		Teacher name : Aslam Baloochjamaki
-		Phone Number : -
-		Phone Number coder : +989389339201
-		school Adress : Nikshahr, khiyaban Moalem
-		coder name : poorya samimi
-		email coder : pooryasamimi@gmail.com
-
-		''')
-	time.sleep(30)
 # end write function
 
 # banner for application
@@ -70,7 +54,6 @@ print ('''
 			3. read Dakhl
 			4. read Kharj
 			5. sood shoma
-			6. About school
 	''')
 code = raw_input(">>> ")
 #start if
@@ -114,7 +97,5 @@ elif code == "5":
 	dakhl_pool = raw_input("The amount you receive today : ")
 	kharj_pool = raw_input("The amount spent today : ")
 	sood(dakhl_pool, kharj_pool)
-elif code == "6":
-	About_schools_HAFEZ(code)
 #end if
 print(">>>>>>>>>>>>>>>>Good by<<<<<<<<<<<<<<<<<<")
